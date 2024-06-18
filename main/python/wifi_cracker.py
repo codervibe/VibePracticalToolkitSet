@@ -4,7 +4,7 @@ import subprocess
 import time
 from pywifi import PyWiFi, const, Profile
 from tqdm import tqdm
-from util.simulateprogressbar import getsTheRequiredFilesInResource
+from toolkit.simulateprogressbar import getsTheRequiredFilesInResource
 
 
 def start_wpa_supplicant(interface):

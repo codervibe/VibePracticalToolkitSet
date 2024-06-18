@@ -2,7 +2,7 @@ import json
 import os
 import platform
 import requests
-from util.simulateprogressbar import getsTheRequiredFilesInResource
+from toolkit.simulateprogressbar import getsTheRequiredFilesInResource
 
 def get_http_headers(url):
     """

@@ -27,7 +27,7 @@ def getsTheRequiredFilesInResource(filename):
     if platform.system() == "Windows":
         # 获取当前脚本文件的绝对路径
         # 进入到resource文件夹
-        resource_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+        resource_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))),
                                        'resource')
         # 指纹文件的路径
         return os.path.join(resource_folder, filename)
